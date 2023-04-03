@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+/* ------------- Menu styles---------------*/
+.menu { 
+  float: left;
+  margin: 20px;
+  color: #fff;
+  text-decoration: none;
+
+
+}
+.menu a {
+
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu a:hover {
+ color: red;
+}
+#index-h1{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    color: blue;
+}
+
+
+#index-h1::after{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color:blue;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+.line{
+  width: 150px;
+  height: 4px;
+  background: red;
+  margin: 10px auto;
+}
+
+.hero-text{
+    padding-top: 70px;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+/*--------------- About us page---------------*/
+header > h1{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    color: blue;
+}
+
+
+/*------------------ Contact us page-------------------*/
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    padding: 25px;
+    margin-top: 95px;
+  }
+
+  .column > img{
+    width: 70%;
+  }
+  .column:first-child{
+    padding-left: 300px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
